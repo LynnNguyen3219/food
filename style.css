@@ -1,0 +1,128 @@
+body{
+    font-family: Comic Sans MS;
+}
+
+header{
+    outline: 2px solid #ff85b1;
+    border-radius: 10px;
+    text-align: center;
+    color: #ff85b1;
+    height: 120px;
+    width: 100%;
+    background: repeating-linear-gradient(to right,#ffc9dd,#ffc9dd 20px,#ffffff 20px,#ffffff 40px);
+}
+
+h1 {
+  margin-bottom: 0.25;
+  font-size: 50px;
+  color: #ff85b1;
+}
+
+h2 {
+  margin-top: 0.25;
+  font-size: 25px;
+  color: #ff85b1;
+}
+
+nav{
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:#ffc9dd;
+    border-radius: 10px;
+    outline: 2px solid #ff85b1;
+}
+
+nav a{
+    display: block;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #ff85b1;
+    width: 90%;
+    margin: 10px auto;
+    height: 60px;
+    font-size: 40px;
+    text-align: center;
+    outline: 2px solid #ff85b1;
+    text-wrap: nowrap;
+}
+
+a:hover{
+    background-color: #fda6c6;
+}
+
+nav h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+main{
+    float: right;
+    width: 79%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ffc9dd;
+    border-radius: 10px;
+    outline: 2px solid #ff85b1;
+}
+
+article{
+    background-color: #ffffff;
+    width: 97%;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    height: 95%;
+    outline: 2px solid #ff85b1;
+    border-radius: 5px;
+}
+
+p{
+    color: #ff85b1;
+    font-size: 20px;
+}
+
+article p{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer{
+    clear: both;
+    outline: 2px solid #ff85b1;
+    border-radius: 10px;
+    text-align: center;
+    color: #ff85b1;
+    height: 120px;
+    width: 100%;
+    background: repeating-linear-gradient(to right,#ffc9dd,#ffc9dd 20px,#ffffff 20px,#ffffff 40px);
+}
+
+footer h1{
+    font-size: 40px;
+    margin-bottom: 0.25;
+    line-height: 1.8
+}
+
+footer h2{
+    font-size: 25px;
+    margin-top: 0.25;
+}
+
+ul{
+    text-align: left;
+    color: #ff85b1;
+    font-size: 20px;
+    padding-left: 48%;
+}
+
+ol{
+    text-align: left;
+    color: #ff85b1;
+    font-size: 20px;
+    padding-left: 48%;
+}
